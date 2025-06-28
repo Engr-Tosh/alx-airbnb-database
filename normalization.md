@@ -72,16 +72,16 @@ message_body: TEXT, NOT NULL
 sent_at: TIMESTAMP, DEFAULT CURRENT_TIMESTAMP
 
 Role
-role_id: Primary key, UUID, indexed
+role_id: Primary key, SERIAL
 name: VARCHAR, UNIQUE, NOT NULL
 description: TEXT
 
 BookingStatus
-status_id: Primary key, UUID
+status_id: Primary key, SERIAL
 status_name: VARCHAR, UNIQUE, NOT NULL
 
 PaymentMethod
-payment_method_id: Primary Key, UUID
+payment_method_id: Primary Key, SERIAL
 method_name: VARCHAR, UNIQUE, NOT NULL 
 
 
