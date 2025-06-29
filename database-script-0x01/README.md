@@ -37,5 +37,5 @@ Each table is designed following **third normal form (3NF)** principles to elimi
 
 ## ✍️ Author
 
-**Divine Amatotsero**
+**Divine Amatotsero** |
 Backend Developer
