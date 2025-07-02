@@ -67,6 +67,8 @@ EXPLAIN SELECT * FROM user WHERE email = 'john@example.com';
 
 * Index Scan using idx\_user\_email
 * Reduced cost and faster lookup
+* Index Scan using idx_user_email on users (cost=0.15..10.00 rows=50)
+
 
 ### Example Query 2 (Before Index)
 
