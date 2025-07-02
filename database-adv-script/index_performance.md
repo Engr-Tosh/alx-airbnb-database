@@ -1,6 +1,4 @@
-# Index Performance Report
-
-## Objective Summary
+# Objective Summary
 
 The goal is to improve query performance in the Airbnb clone database by identifying frequently accessed columns and creating indexes on them. This includes analyzing query patterns on the `users`, `bookings`, and `properties` tables—specifically focusing on columns involved in `WHERE`, `JOIN`, and `ORDER BY` clauses. Indexes are then implemented to reduce query execution time, and performance is benchmarked using `EXPLAIN` or `EXPLAIN ANALYZE` before and after indexing.
 
